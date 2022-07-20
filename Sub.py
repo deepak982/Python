@@ -1,0 +1,5 @@
+print("Enter the value a: ")
+a=input()
+print("Enter the value b: ")
+b=input()
+print("Your Subtraction is:", int(a) - int(b))
