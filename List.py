@@ -46,7 +46,7 @@ d=c
 print(c)
 print(d)
 
-d=c.copy()
+d=c.copy()           #Deep copy
 print(d)
 
 d.append(100)
