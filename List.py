@@ -52,3 +52,26 @@ print(d)
 d.append(100)
 print(c)
 print(d)
+
+x=[1,2,3,4,5]
+x.append(6)
+print(x)
+x.extend([7,8])
+print(x)
+x.remove(1)
+print(x)
+x.insert(0,1)
+print(x)
+
+list1 = [100, 200, 300, 400, 500]
+print(list1[-1::-1])
+list1.reverse()
+print(list1)
+
+list1 = ["M", "na", "i", "Ke"]
+list2 = ["y", "me", "s", "lly"]
+list3=[i+j for i, j in zip(list1,list2)]
+print(list3)
+
+list1 = [[10, 20, 30, 40]]
+list2 = [100, 200, 300, 400]
